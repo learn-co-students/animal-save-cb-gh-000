@@ -18,5 +18,13 @@ html {
   right: 0;
 }
 
-/* Write your solution here */
+@media only screen and (max-width: 1090px) and (min-width: 642px){
+  #dolphin {
+      top: 0px;
+      transform: rotateX(90deg);
+      transform: rotateY(180deg);
+      transform: rotateZ(270deg);
+  }
+}
 
+/* Write your solution here */
