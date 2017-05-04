@@ -6,7 +6,14 @@ html {
   position: absolute;
   top: 50px;
   right: 0;
+  transition: all .3s;
 }
 
 /* Write your solution here */
 
+@media only screen and (max-width: 1350px) {
+  #ostrich {
+    top: -50px;
+    transform: scale(.8);
+  }
+}
