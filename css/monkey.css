@@ -10,3 +10,10 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (max-device-width: 1170px) {
+
+  #monkey {
+    top: 0;
+    right: 300px;
+  }
+}
